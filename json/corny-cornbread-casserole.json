@@ -3,16 +3,16 @@
 
 
 	"ingredients": {
-		"1 can":"cream-style corn",
-		"1 can":"whole kernel corn",
-		"2":"eggs, beaten",
-		"1 stick":"margarine or butter",
-		"1 cup":"sour cream",
-		"4 tablespoons":"chopped onion",
-		"2 tablespoons":"chopped green pepper",
-		"1 box":"Jiffy Corn Bread mix",
-		"1/4 teaspoon":"salt",
-		"1/4 teaspoon":"pepper"
+		"cream-style corn":"1 can",
+		"whole kernel corn":"1 can",
+		"eggs, beaten":"2",
+		"margarine or butter":"1 stick",
+		"sour cream":"1 cup",
+		"chopped onion":"4 tablespoons",
+		"chopped green pepper":"2 tablespoons",
+		"Jiffy Corn Bread mix":"1 box",
+		"salt":"1/4 teaspoon",
+		"pepper":"1/2 teaspoon"
 	},
 
 
