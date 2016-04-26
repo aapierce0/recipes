@@ -16,9 +16,21 @@ html {
 	background: #FFD486;
 }
 
-header > img {
+.image-wrapper {
+	position: relative;
+}
+
+.main-image {
 	width: 100%;
 	border: solid 1px rgba(0, 0, 0, 0.4);
+}
+
+.qr-code {
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	width: 150px;
+	height: 150px;
 }
 
 a.open-in-digidex {
@@ -90,7 +102,10 @@ li {
 	<div class="wrapper">
 
 		<header>
-			<img src="img/corny-cornbread-casserole.jpg">
+			<div class="image-wrapper">
+				<img src="img/corny-cornbread-casserole.jpg" class="main-image">
+				<img src="img/qr_code.jpg" class="qr-code">
+			</div>
 			<h1>Corny Cornbread Corn Casserole</h1>
 			<a class="open-in-digidex" href="digidex:http://bloviations.net/recipes/json/corny-cornbread-casserole.json">OPEN IN DIGIDEX APP...</a>
 			<a class="rectango" href="http://rectangoapp.com">Get the <strong>Free</strong> Rectango Digidex App</a>
